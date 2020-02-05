@@ -24,9 +24,7 @@
       <v-spacer />
     </v-app-bar>
     <v-content style="background-color: #99a6">
-      <v-container>
-        <nuxt />
-      </v-container>
+      <nuxt />
     </v-content>
     <v-footer :fixed="fixed" app>
       <span>&copy; 2020</span>
@@ -47,8 +45,8 @@ export default {
         },
         {
           icon: 'mdi-chart-bubble',
-          title: 'Inspire',
-          to: '/inspire'
+          title: 'Sample Page',
+          to: '/test-sample'
         }
       ],
       title: 'edunetics'
