@@ -59,7 +59,6 @@ export default {
   vuetify: {
     customVariables: ['~/assets/variables.scss'],
     theme: {
-      dark: true,
       themes: {
         dark: {
           primary: colors.blue.darken2,
@@ -69,6 +68,11 @@ export default {
           warning: colors.amber.base,
           error: colors.deepOrange.accent4,
           success: colors.green.accent3
+        },
+        delight: {
+          primary: colors.lightGreen.darken2
+          // all custom theme colors we need
+          // for HackData come here! 
         }
       }
     }
